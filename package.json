@@ -1,0 +1,27 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "Test  api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r jsdom-global/register test/ltitest.js --SAKey=$SAKey --AKeyId=$AKeyId --env=prod"
+  },
+  "author": "rupsi",
+  "license": "ISC",
+  "dependencies": {
+    "argv": "0.0.2",
+    "aws4": "1.10.0",
+    "chai": "4.2.0",
+    "crypto-js": "4.0.0",
+    "mocha": "8.1.3",
+    "mochawesome": "6.1.1",
+    "promise": "8.1.0",
+    "request-promise-native": "1.0.8",
+    "yargs": "16.0.3",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jsdom": "16.4.0",
+    "jsdom-global": "3.0.2"
+  }
+}

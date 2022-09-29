@@ -1,0 +1,37 @@
+{
+  "lti_params": {
+    "oauth_consumer_key": "qademo",
+    "oauth_signature_method": "HMAC-SHA1",
+    "oauth_version": "1.0",
+    "context_id": "295fe4f8b98aed7d17ce91c3ab5ad737d8483ab4",
+    "context_label": "DLS",
+    "context_title": "DLS Reader Test",
+    "custom_canvas_enrollment_state": "active",
+    "ext_roles": "urn:lti:instrole:ims/lis/Instructor,urn:lti:role:ims/lis/Instructor,urn:lti:sysrole:ims/lis/User",
+    "launch_presentation_document_target": "iframe",
+    "launch_presentation_locale": "en",
+    "launch_presentation_return_url": "https://canvas.instructure.com/courses/2028946/external_content/success/external_tool_redirect",
+    "lis_person_contact_email_primary": "sachin.gill@comprotechnologies.com",
+    "lti_message_type": "basic-lti-launch-request",
+    "lti_version": "LTI-1p0",
+    "oauth_callback": "about:blank",
+    "product_environment": "devpub4-qa",
+    "resource_link_id": "ffc6c89f6bb0baf6210e1e54e8f3ad5bbea0434f",
+    "resource_link_title": "DLS Reader App",
+    "roles": "Instructor",
+    "tool_consumer_info_product_family_code": "canvas",
+    "tool_consumer_info_version": "cloud",
+    "tool_consumer_instance_contact_email": "notifications@instructure.com",
+    "tool_consumer_instance_guid": "07adb3e60637ff02d9ea11c7c74f1ca921699bd7.canvas.instructure.com",
+    "tool_consumer_instance_name": "Free For Teacher",
+    "user_id": "qauser"
+  },
+  "reader_params": {
+    "launch_url": "https://dummyurl.com",
+    "reader_product_code": "qareadercode",
+    "reader_resource_link_id": "https://dummyurl.com"
+  },
+  "api_host": "4l6bv5v68j.execute-api.us-east-1.amazonaws.com",
+  "api_path": "/prod/lti/authenticate",
+  "api_url": "https://4l6bv5v68j.execute-api.us-east-1.amazonaws.com/prod/lti/authenticate"
+}
